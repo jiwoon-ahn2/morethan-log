@@ -33,9 +33,9 @@ const Feed: React.FC<Props> = () => {
         <MobileProfileCard />
         <PinnedPosts q={q} />
         <SearchInput value={q} onChange={(e) => setQ(e.target.value)} />
-        <div className="tags">
-          <TagList />
-        </div>
+        {/* <div className="tags">
+           <TagList /> */}
+         </div> */}
         <FeedHeader />
         <PostList q={q} />
         <div className="footer">
