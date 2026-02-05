@@ -21,14 +21,14 @@ const Feed: React.FC<Props> = () => {
 
   return (
     <StyledWrapper>
-      <div
+      {/* <div
         className="lt"
         css={{
           height: `calc(100vh - ${HEADER_HEIGHT}px)`,
         }}
       >
-        {/* <TagList />  */}
-      </div>
+         <TagList />  
+      </div> */}
       <div className="mid">
         <MobileProfileCard />
         <PinnedPosts q={q} />
@@ -136,6 +136,7 @@ const StyledWrapper = styled.div`
     }
   }
 `
+
 
 
 
