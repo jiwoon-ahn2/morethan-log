@@ -17,11 +17,11 @@ const PostCard: React.FC<Props> = ({ data }) => {
   return (
     <StyledWrapper href={`/${data.slug}`}>
       <article>
-        {category && (
+        /* {category && ( 
           <div className="category">
             <Category>{category}</Category>
           </div>
-        )}
+        )} */
         {data.thumbnail && (
           <div className="thumbnail">
             <Image
@@ -47,12 +47,12 @@ const PostCard: React.FC<Props> = ({ data }) => {
           <div className="summary">
             <p>{data.summary}</p>
           </div>
-          <div className="tags">
+          {/* <div className="tags">
             {data.tags &&
               data.tags.map((tag: string, idx: number) => (
                 <Tag key={idx}>{tag}</Tag>
               ))}
-          </div>
+          </div> */}
         </div>
       </article>
     </StyledWrapper>
