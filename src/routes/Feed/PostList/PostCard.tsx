@@ -102,7 +102,7 @@ const StyledWrapper = styled(Link)`
       padding: 1rem;
 
       &[data-thumb="false"] {
-        padding-top: 3.5rem;
+        padding-top: 1rem;
       }
       &[data-category="false"] {
         padding-top: 1.5rem;
@@ -145,7 +145,7 @@ const StyledWrapper = styled(Link)`
         }
       }
       > .summary {
-        margin-bottom: 1rem;
+        margin-bottom: 0rem;
         p {
           display: none;
           line-height: 2rem;
