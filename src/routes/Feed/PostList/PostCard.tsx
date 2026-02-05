@@ -102,8 +102,8 @@ const StyledWrapper = styled(Link)`
       padding: 1rem;
 
       &[data-thumb="false"] {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding-top: 1.5rem;
+        padding-bottom: 0.5rem;
       }
       &[data-category="false"] {
         padding-top: 1.5rem;
