@@ -34,7 +34,7 @@ const Feed: React.FC<Props> = () => {
         <PinnedPosts q={q} />
         <SearchInput value={q} onChange={(e) => setQ(e.target.value)} />
         {/* <div className="tags">
-           <TagList /> */}
+           <TagList />
          </div> */}
         <FeedHeader />
         <PostList q={q} />
@@ -136,5 +136,6 @@ const StyledWrapper = styled.div`
     }
   }
 `
+
 
 
