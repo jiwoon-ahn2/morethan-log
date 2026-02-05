@@ -32,7 +32,7 @@ const Feed: React.FC<Props> = () => {
       <div className="mid">
         <MobileProfileCard />
         <PinnedPosts q={q} />
-        <SearchInput value={q} onChange={(e) => setQ(e.target.value)} />
+        {/* <SearchInput value={q} onChange={(e) => setQ(e.target.value)} /> */}
         {/* <div className="tags">
            <TagList />
          </div> */}
@@ -136,6 +136,7 @@ const StyledWrapper = styled.div`
     }
   }
 `
+
 
 
 
